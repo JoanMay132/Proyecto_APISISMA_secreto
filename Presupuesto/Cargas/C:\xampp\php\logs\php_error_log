@@ -1,0 +1,158 @@
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(9): {closure}('Premaquinaria2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php on line 2
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(9): {closure}('Prematerial2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php on line 2
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(8): {closure}('Preservicio2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php on line 2
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:44 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(8): {closure}('Premobra2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(9): {closure}('Prematerial2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(8): {closure}('Preservicio2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(9): {closure}('Premaquinaria2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(8): {closure}('Premobra2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(9): {closure}('Premaquinaria2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(8): {closure}('Premobra2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMateriales.php(9): {closure}('Prematerial2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Prematerial2.php on line 2
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:42:47 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(8): {closure}('Preservicio2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php on line 2
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(9): {closure}('Premaquinaria2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php on line 2
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(8): {closure}('Preservicio2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php on line 2
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:52:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(8): {closure}('Premobra2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php on line 2
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMaquinaria.php(9): {closure}('Premaquinaria2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premaquinaria2.php on line 2
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadServicios.php(8): {closure}('Preservicio2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Preservicio2.php on line 2
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php on line 6
+[20-Dec-2024 08:52:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(6): include_once()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/loadMobra.php(8): {closure}('Premobra2')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Premobra2.php on line 2
+[29-Dec-2024 12:38:40 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[12-Jan-2025 22:11:45 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:37:11 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:45:21 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:45:31 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:45:50 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:46:26 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 16:54:43 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 17:02:51 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 17:03:42 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 17:10:03 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 17:18:17 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[10-Feb-2025 18:06:39 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15
+[12-Feb-2025 14:23:36 America/Mexico_City] PHP Warning:  Undefined variable $datas in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Cargas/Cotizacion.php on line 15

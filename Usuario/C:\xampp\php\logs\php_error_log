@@ -1,0 +1,40 @@
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[18-Dec-2024 07:25:01 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php:79) in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 8
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[19-Dec-2024 04:49:00 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php:79) in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 8
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[19-Dec-2024 04:49:09 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php:79) in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 8
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[29-Dec-2024 18:39:27 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php:79) in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 8
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 34
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 39
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 40
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 142
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 7
+[22-Jul-2025 18:01:05 Europe/Berlin] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php:82) in /home2/mspetrol/systemsisma.org/apisisma/Usuario/solicitud.php on line 8

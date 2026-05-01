@@ -1,0 +1,4 @@
+[17-Dec-2024 16:14:37 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/unlog.php on line 3
+[17-Dec-2024 18:01:33 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/unlog.php on line 3
+[18-Dec-2024 04:41:59 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/unlog.php on line 3
+[18-Dec-2024 07:02:39 Europe/Berlin] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/unlog.php on line 3

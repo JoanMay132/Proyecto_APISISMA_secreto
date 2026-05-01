@@ -1,0 +1,116 @@
+[20-Dec-2024 08:26:56 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/MObra.php on line 10
+[20-Dec-2024 08:32:10 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/MObra.php on line 10
+[29-Dec-2024 18:28:18 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:28:18 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:28:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php(13): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 2
+[29-Dec-2024 18:28:29 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:28:29 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:28:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php(13): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 2
+[29-Dec-2024 18:33:52 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:33:52 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php on line 10
+[29-Dec-2024 18:33:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:2
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Predefinido.php(13): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 2
+[07-Jan-2025 16:23:10 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[07-Jan-2025 16:23:10 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[07-Jan-2025 16:23:15 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[07-Jan-2025 16:23:15 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:29:45 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:29:45 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:00 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:00 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:32 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:58 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:32:58 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:34:47 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:34:47 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:37:13 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:37:13 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:45:56 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 09:46:23 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 09:47:23 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 09:49:11 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 09:56:37 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:56:37 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:58:20 America/Mexico_City] PHP Warning:  Undefined array key "material" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 09:58:20 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 30
+[22-Jan-2025 10:00:04 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 10:36:40 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 10:43:28 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 55
+[22-Jan-2025 23:42:32 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$oMaterial" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 27
+[23-Jan-2025 00:00:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$oMaterial" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 27
+[24-Jan-2025 23:10:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected variable "$oMaterial" in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 27
+[25-Jan-2025 00:18:45 America/Mexico_City] PHP Warning:  Undefined array key 199 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 57
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:45 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 536 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 537 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 538 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52
+[15-Jul-2025 09:34:46 America/Mexico_City] PHP Warning:  Undefined array key 539 in /home2/mspetrol/systemsisma.org/apisisma/Presupuesto/Controller/Materiales.php on line 52

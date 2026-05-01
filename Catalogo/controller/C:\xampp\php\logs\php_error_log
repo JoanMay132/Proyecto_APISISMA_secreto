@@ -1,0 +1,358 @@
+[18-Dec-2024 16:37:43 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:43 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:43 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 16:37:49 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:49 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 16:37:50 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:50 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:37:50 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 16:40:56 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:40:56 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:40:56 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 16:40:57 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:40:57 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:40:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 16:41:18 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:08:57 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:08:57 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:08:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:21:21 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:21:21 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:21:21 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:21:46 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:21:46 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:21:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:25:11 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:25:11 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:25:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:28:52 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:28:52 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:28:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[18-Dec-2024 17:30:25 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:30:25 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[18-Dec-2024 17:30:25 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 07:25:14 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:28:42 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:42 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:42 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:28:48 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:48 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:48 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:28:51 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:51 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:28:54 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:54 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:28:54 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:29:10 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:29:10 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:29:10 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[19-Dec-2024 17:29:45 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:29:45 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[19-Dec-2024 17:29:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[20-Dec-2024 08:57:45 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[20-Dec-2024 08:57:45 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[20-Dec-2024 08:57:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[20-Dec-2024 08:57:57 Europe/Berlin] PHP Warning:  include_once(../../controlador/Conexion.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[20-Dec-2024 08:57:57 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../controlador/Conexion.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php on line 2
+[20-Dec-2024 08:57:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Conexion" not found in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php:3
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/getProvide.php(3): include_once()
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Proveedor.php on line 3
+[27-Dec-2024 00:00:02 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[27-Dec-2024 00:00:02 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:35:08 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:35:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:35:28 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:35:28 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:36:01 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Jan-2025 18:36:01 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[13-Jan-2025 22:03:24 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[13-Jan-2025 22:03:24 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:19:01 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:19:01 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:03 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:03 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:13 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:13 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:15 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[14-Jan-2025 09:27:15 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Jan-2025 12:21:17 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Jan-2025 12:21:17 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:16 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:16 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:29 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:29 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:38 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:38 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:39 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Jan-2025 15:36:39 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 11:51:16 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 11:51:16 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 18:21:41 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 18:21:41 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 18:21:56 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 18:21:56 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[12-Feb-2025 18:23:31 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:31 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:34 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:34 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:35 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:35 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:35 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:35 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:40 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[12-Feb-2025 18:23:40 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[27-Feb-2025 10:50:27 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[27-Feb-2025 10:50:27 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[27-Feb-2025 10:50:31 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[27-Feb-2025 10:50:31 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Mar-2025 10:12:59 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Mar-2025 10:12:59 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Mar-2025 10:13:03 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[24-Mar-2025 10:13:03 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[11-Apr-2025 12:11:21 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[11-Apr-2025 12:11:21 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[25-Apr-2025 07:19:44 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[25-Apr-2025 07:19:44 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[25-Apr-2025 07:19:46 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[25-Apr-2025 07:19:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[29-Apr-2025 13:46:43 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[29-Apr-2025 13:46:43 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[29-Apr-2025 13:46:45 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[29-Apr-2025 13:46:45 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[02-May-2025 13:04:50 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[02-May-2025 13:04:50 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[04-Jul-2025 10:58:06 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 10:58:06 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 10:58:30 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 10:58:30 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 10:58:45 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 10:58:45 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[04-Jul-2025 18:58:53 Europe/Berlin] PHP Warning:  Undefined array key "fkcliente" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 6
+[20-Aug-2025 12:57:06 America/Mexico_City] PHP Warning:  Undefined array key "titulo" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[20-Aug-2025 12:57:06 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 17
+[26-Jan-2026 19:54:13 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[26-Jan-2026 19:54:13 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[26-Jan-2026 19:54:18 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[26-Jan-2026 19:54:18 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[11-Feb-2026 12:22:40 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[11-Feb-2026 12:22:40 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:45:51 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:45:51 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:45:53 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:45:53 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:46:02 America/Mexico_City] PHP Warning:  Undefined array key "tituloReg" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31
+[16-Feb-2026 14:46:02 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/controller/addUserCustom.php on line 31

@@ -1,0 +1,391 @@
+[17-Dec-2024 15:24:25 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 15:24:25 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 15:24:25 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 15:24:25 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 15:24:25 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 08:24:25 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 08:24:25 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 15:39:21 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 15:39:21 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 15:39:21 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 15:39:21 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 15:39:21 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 08:39:21 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 08:39:21 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 15:52:06 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 15:52:06 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 15:52:06 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 15:52:06 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 15:52:06 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 08:52:06 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 08:52:06 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:03:25 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:03:25 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:03:25 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:03:25 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:03:25 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:03:25 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 09:03:25 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:04:46 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:04:46 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:04:46 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:04:46 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:04:46 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:04:46 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:04:46 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:10:05 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:10:05 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:10:05 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:10:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:10:05 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:10:05 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:10:05 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:12:30 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:12:30 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:12:30 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:12:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:12:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:12:30 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:12:30 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:12:55 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:12:55 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:12:55 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:12:55 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:12:55 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:12:55 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:12:55 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:13:58 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:13:58 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:13:58 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:13:58 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:13:58 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:13:58 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 09:13:58 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:19:08 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:19:08 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:19:08 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:19:08 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:19:08 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:19:08 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:19:08 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:37:17 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:37:17 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:37:17 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:37:17 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:37:17 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:37:17 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:37:17 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:37:26 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:37:26 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:37:26 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:37:26 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:37:26 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:37:26 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 09:37:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:39:32 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:39:32 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:39:32 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:39:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:39:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:39:32 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:39:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:41:18 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:41:18 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:41:18 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:49:30 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 16:49:30 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 16:49:30 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:49:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 16:49:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 09:49:30 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 09:49:30 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 16:57:50 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 10
+[17-Dec-2024 16:57:50 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 36
+[17-Dec-2024 16:57:50 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 41
+[17-Dec-2024 16:57:50 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 16:57:50 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 132
+[17-Dec-2024 09:57:50 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[17-Dec-2024 09:57:50 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 17:15:22 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 17:15:22 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 17:15:22 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 17:15:22 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 17:15:22 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 10:15:22 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 10:15:22 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[17-Dec-2024 21:56:44 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 21:56:44 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 21:56:44 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 21:56:44 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 21:56:44 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 21:56:46 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 21:56:46 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 21:56:46 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 21:56:46 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 21:56:46 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/employees.php on line 10
+[17-Dec-2024 21:57:17 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/employees.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/employees.php(10): Permisos->getPermissionControl(NULL, 4, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 04:37:28 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 04:37:28 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 04:37:28 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 04:37:28 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 04:37:28 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 04:37:30 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 04:37:30 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 04:37:30 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 04:37:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 04:37:30 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 04:37:34 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 04:37:34 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 04:44:40 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 04:44:40 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 04:44:40 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 04:44:40 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 04:44:40 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 21:44:40 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 21:44:40 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 05:55:26 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 05:55:26 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 05:55:26 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 05:55:26 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 05:55:26 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[17-Dec-2024 22:55:26 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[17-Dec-2024 22:55:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 07:24:16 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 07:24:16 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 07:25:14 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 00:25:14 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13
+[18-Dec-2024 00:25:14 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php on line 13 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/clientes.php(13): Permisos->getPermissionControl(NULL, 2, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 07:25:16 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 07:25:16 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 07:25:16 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 07:25:16 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 07:25:16 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 00:25:16 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[18-Dec-2024 00:25:16 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 07:25:45 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 07:25:45 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/sucursal.php on line 3
+[18-Dec-2024 07:25:55 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 07:25:55 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 07:25:55 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 07:25:55 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 07:25:55 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 00:25:55 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[18-Dec-2024 00:25:55 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[18-Dec-2024 16:04:59 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[18-Dec-2024 16:04:59 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[18-Dec-2024 16:04:59 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[18-Dec-2024 16:04:59 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[18-Dec-2024 16:04:59 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 02:37:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[19-Dec-2024 02:37:51 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[18-Dec-2024 22:28:10 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[18-Dec-2024 22:28:10 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[18-Dec-2024 22:28:10 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[26-Dec-2024 23:59:31 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[26-Dec-2024 23:59:31 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[26-Dec-2024 23:59:31 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 56
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 69
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 69
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[27-Dec-2024 00:00:07 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 56
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 69
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 69
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[27-Dec-2024 00:00:21 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[28-Dec-2024 01:22:31 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[28-Dec-2024 01:22:31 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[28-Dec-2024 01:22:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[28-Dec-2024 01:22:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[28-Dec-2024 01:22:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[28-Dec-2024 01:22:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/permisos.php on line 3
+[29-Dec-2024 18:39:32 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[29-Dec-2024 18:39:32 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[29-Dec-2024 18:39:32 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[29-Dec-2024 18:39:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[29-Dec-2024 18:39:32 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[29-Dec-2024 11:39:32 America/Mexico_City] PHP Warning:  Undefined array key "controles" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10
+[29-Dec-2024 11:39:32 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: Permisos::getPermissionControl(): Argument #1 ($resul) must be of type array, null given, called in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php on line 10 and defined in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php:41
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Catalogo/proveedores.php(10): Permisos->getPermissionControl(NULL, 3, 0)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Permisos.php on line 41
+[29-Dec-2024 18:39:34 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[29-Dec-2024 18:39:34 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[29-Dec-2024 18:39:34 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[29-Dec-2024 18:39:34 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[29-Dec-2024 18:39:34 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[29-Dec-2024 18:39:36 Europe/Berlin] PHP Warning:  Undefined array key "sucursal" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[29-Dec-2024 18:39:36 Europe/Berlin] PHP Warning:  Undefined array key "name_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[29-Dec-2024 18:39:36 Europe/Berlin] PHP Warning:  Undefined array key "id_usuario" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[29-Dec-2024 18:39:36 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[29-Dec-2024 18:39:36 Europe/Berlin] PHP Warning:  Undefined array key "tipo_user" in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[29-Dec-2024 17:54:54 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[29-Dec-2024 17:54:54 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[29-Dec-2024 17:54:54 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[09-Jan-2025 01:12:16 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[08-Jan-2025 18:18:24 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[08-Jan-2025 18:18:24 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[08-Jan-2025 18:18:24 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[08-Jan-2025 18:21:23 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[08-Jan-2025 18:21:23 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[08-Jan-2025 18:21:23 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 11
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 37
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 42
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 43
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Undefined global variable $_SESSION in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[09-Jan-2025 17:48:29 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/dependencias/php/menu.php on line 133
+[12-Jan-2025 18:27:15 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[12-Jan-2025 18:27:15 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:27:15 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:27:28 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[12-Jan-2025 18:27:28 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:27:28 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:27:49 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[12-Jan-2025 18:27:49 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:27:49 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:28:53 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 85
+[12-Jan-2025 18:28:53 America/Mexico_City] PHP Warning:  Undefined variable $data in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[12-Jan-2025 18:28:53 America/Mexico_City] PHP Warning:  foreach() argument must be of type array|object, null given in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/addusercustomer.php on line 96
+[13-Jan-2025 02:07:28 Europe/Berlin] PHP Warning:  Undefined array key "customer" in /home2/mspetrol/systemsisma.org/apisisma/Catalogo/adddeptocli.php on line 7

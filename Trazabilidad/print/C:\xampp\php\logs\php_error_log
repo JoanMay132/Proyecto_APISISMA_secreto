@@ -1,0 +1,281 @@
+[19-Dec-2024 00:20:21 America/Mexico_City] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php:24
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php(24): file_get_contents('')
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 24
+[19-Dec-2024 00:20:31 America/Mexico_City] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php:24
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php(24): file_get_contents('')
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 24
+[19-Dec-2024 00:22:46 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[20-Dec-2024 02:00:13 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[27-Dec-2024 00:41:57 America/Mexico_City] PHP Warning:  Array to string conversion in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 380
+[27-Dec-2024 00:42:06 America/Mexico_City] PHP Warning:  Array to string conversion in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 380
+[27-Dec-2024 00:59:36 America/Mexico_City] PHP Warning:  Array to string conversion in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 372
+[27-Dec-2024 01:02:03 America/Mexico_City] PHP Warning:  Array to string conversion in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 372
+[27-Dec-2024 01:02:13 America/Mexico_City] PHP Warning:  Undefined variable $deci in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 382
+[27-Dec-2024 01:04:28 America/Mexico_City] PHP Warning:  Undefined array key 1 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 372
+[27-Dec-2024 01:04:40 America/Mexico_City] PHP Warning:  Undefined variable $deci in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 382
+[27-Dec-2024 01:05:59 America/Mexico_City] PHP Warning:  Undefined variable $deci in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 382
+[27-Dec-2024 01:06:09 America/Mexico_City] PHP Warning:  Array to string conversion in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 352
+[29-Dec-2024 15:21:46 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[02-Jan-2025 22:59:55 America/Mexico_City] PHP Warning:  Undefined array key "observacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 485
+[02-Jan-2025 23:00:29 America/Mexico_City] PHP Warning:  Undefined array key "observacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 485
+[02-Jan-2025 23:01:53 America/Mexico_City] PHP Warning:  Undefined array key "observacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 484
+[02-Jan-2025 23:02:30 America/Mexico_City] PHP Warning:  Undefined array key "observacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 484
+[02-Jan-2025 23:03:07 America/Mexico_City] PHP Warning:  Undefined array key "observacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 481
+[06-Jan-2025 08:53:32 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[06-Jan-2025 08:53:33 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[17-Jan-2025 19:41:11 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[28-Jan-2025 00:55:40 America/Mexico_City] PHP Warning:  Undefined variable $pageCount in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/orden.php on line 334
+[28-Jan-2025 00:57:03 America/Mexico_City] PHP Parse error:  syntax error, unexpected token "var", expecting end of file in /home2/mspetrol/systemsisma.org/apisisma/dependencias/dompdf/vendor/dompdf/dompdf/src/Adapter/CPDF.php(847) : eval()'d code on line 2
+[28-Jan-2025 00:57:30 America/Mexico_City] PHP Parse error:  syntax error, unexpected token "var", expecting end of file in /home2/mspetrol/systemsisma.org/apisisma/dependencias/dompdf/vendor/dompdf/dompdf/src/Adapter/CPDF.php(847) : eval()'d code on line 2
+[28-Jan-2025 00:58:16 America/Mexico_City] PHP Parse error:  syntax error, unexpected token "var", expecting end of file in /home2/mspetrol/systemsisma.org/apisisma/dependencias/dompdf/vendor/dompdf/dompdf/src/Adapter/CPDF.php(847) : eval()'d code on line 2
+[28-Jan-2025 00:59:48 America/Mexico_City] PHP Parse error:  syntax error, unexpected token "var", expecting end of file in /home2/mspetrol/systemsisma.org/apisisma/dependencias/dompdf/vendor/dompdf/dompdf/src/Adapter/CPDF.php(847) : eval()'d code on line 2
+[09-Feb-2025 22:27:34 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[11-Feb-2025 16:03:11 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 283
+[15-Feb-2025 08:58:37 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 08:58:37 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 01:58:37 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'cotizacion' in field list in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php:341
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php(341): PDOStatement->execute()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(18): Cotizacion->Print('106')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php on line 341
+[15-Feb-2025 08:59:50 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 08:59:50 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 01:59:50 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'cotizacion' in field list in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php:341
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php(341): PDOStatement->execute()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(18): Cotizacion->Print('106')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php on line 341
+[15-Feb-2025 09:01:08 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:01:08 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:01:08 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'cotizacion' in field list in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php:341
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php(341): PDOStatement->execute()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(18): Cotizacion->Print('106')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php on line 341
+[15-Feb-2025 09:03:30 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:03:30 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:03:30 America/Mexico_City] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1109 Unknown table 'cotizacion' in field list in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php:341
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php(341): PDOStatement->execute()
+#1 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(18): Cotizacion->Print('106')
+#2 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Cotizacion.php on line 341
+[15-Feb-2025 09:04:22 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:04:22 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:04:22 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:04:22 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:04:26 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:04:26 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:04:26 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:04:26 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:04:31 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:04:31 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:04:31 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:04:31 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:05:35 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:05:35 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:05:35 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:05:35 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:06:20 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:06:20 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:06:20 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:06:20 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:08:48 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:08:48 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:08:48 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:08:48 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:09:01 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:09:01 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 183
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 183
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 183
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 183
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 189
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 189
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 189
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 189
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 190
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 190
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 190
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 190
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 191
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 195
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 195
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 195
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 195
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 196
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 196
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 196
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 196
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 197
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Undefined variable $index in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 197
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 197
+[15-Feb-2025 02:09:01 America/Mexico_City] PHP Warning:  Trying to access array offset on value of type null in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 197
+[15-Feb-2025 09:10:29 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 09:10:29 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 8
+[15-Feb-2025 02:10:29 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 02:10:29 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:37
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(37): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 37
+[15-Feb-2025 09:11:30 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 7
+[15-Feb-2025 09:11:30 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 7
+[15-Feb-2025 02:11:30 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 36
+[15-Feb-2025 02:11:30 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:36
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(36): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 36
+[15-Feb-2025 09:14:09 Europe/Berlin] PHP Warning:  include_once(../../class/Header.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 7
+[15-Feb-2025 09:14:09 Europe/Berlin] PHP Warning:  include_once(): Failed opening '../../class/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 7
+[15-Feb-2025 02:14:09 America/Mexico_City] PHP Warning:  Undefined variable $header in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 36
+[15-Feb-2025 02:14:09 America/Mexico_City] PHP Fatal error:  Uncaught TypeError: array_filter(): Argument #1 ($array) must be of type array, null given in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php:36
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php(36): array_filter(NULL, Object(Closure))
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 36
+[07-Apr-2025 17:31:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 11:40:35 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 11:48:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 11:52:38 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 11:58:32 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:08:02 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:16:03 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:18:37 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:20:09 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:23:15 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 12:40:30 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2025 17:52:12 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 10:56:53 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 11:00:01 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 11:02:25 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 11:04:14 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 11:07:14 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[10-Apr-2025 11:11:09 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[24-Apr-2025 09:20:14 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:11:30 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:16:05 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:17:46 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:19:25 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:21:53 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:24:05 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:24:15 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:51:09 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-May-2025 17:55:07 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[22-May-2025 13:21:14 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[22-May-2025 13:21:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[02-Jun-2025 18:46:58 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/mspetrol/systemsisma.org/apisisma/controlador/Revpreeliminar.php:209
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php(16): Revpreeliminar->Print(221)
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/controlador/Revpreeliminar.php on line 209
+[12-Jun-2025 10:19:31 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[13-Jun-2025 11:43:00 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[25-Jun-2025 08:46:29 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[26-Jun-2025 09:26:55 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[26-Jun-2025 09:30:40 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[05-Aug-2025 14:32:46 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[05-Aug-2025 14:32:51 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[11-Aug-2025 17:40:24 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[11-Aug-2025 17:52:16 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[11-Aug-2025 18:03:04 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[11-Aug-2025 18:10:30 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[12-Aug-2025 15:00:12 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[12-Aug-2025 15:00:19 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[19-Aug-2025 16:56:00 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[19-Aug-2025 17:09:13 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[26-Aug-2025 12:31:25 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[03-Sep-2025 07:31:20 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[03-Sep-2025 22:31:12 Europe/Berlin] PHP Warning:  Undefined array key "entrega" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 9
+[07-Sep-2025 08:32:27 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[07-Sep-2025 17:31:13 Europe/Berlin] PHP Warning:  Undefined array key "entrega" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 9
+[12-Sep-2025 09:32:25 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[13-Sep-2025 00:32:08 Europe/Berlin] PHP Warning:  Undefined array key "entrega" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 9
+[14-Sep-2025 21:30:45 Europe/Berlin] PHP Warning:  Undefined array key "revision" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php on line 9
+[14-Sep-2025 21:35:38 Europe/Berlin] PHP Warning:  Undefined array key "revision" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php on line 9
+[16-Sep-2025 22:36:35 Europe/Berlin] PHP Warning:  Undefined array key "entrega" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 9
+[22-Sep-2025 21:33:48 Europe/Berlin] PHP Warning:  Undefined array key "revision" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php on line 9
+[23-Sep-2025 15:58:35 Europe/Berlin] PHP Warning:  Undefined array key "entrega" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 9
+[25-Sep-2025 14:37:36 Europe/Berlin] PHP Warning:  Undefined array key "orden" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/orden.php on line 9
+[27-Sep-2025 08:34:22 Europe/Berlin] PHP Warning:  Undefined array key "revision" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php on line 9
+[03-Oct-2025 09:36:22 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[05-Oct-2025 18:37:08 Europe/Berlin] PHP Warning:  Undefined array key "revision" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/revision.php on line 9
+[06-Oct-2025 15:35:36 Europe/Berlin] PHP Warning:  Undefined array key "orden" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/orden.php on line 9
+[06-Oct-2025 15:35:57 Europe/Berlin] PHP Warning:  Undefined array key "orden" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/orden.php on line 9
+[07-Oct-2025 05:04:21 Europe/Berlin] PHP Warning:  Undefined array key "cotizacion" in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/cotizacion.php on line 10
+[17-Oct-2025 07:36:00 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[17-Oct-2025 07:37:45 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[17-Oct-2025 07:40:01 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[18-Oct-2025 13:25:13 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[24-Nov-2025 09:11:42 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[24-Nov-2025 12:08:01 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[29-Nov-2025 13:16:19 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[31-Dec-2025 08:43:04 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[14-Jan-2026 18:05:04 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[21-Jan-2026 12:14:42 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[21-Jan-2026 12:21:07 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[21-Jan-2026 17:35:47 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[21-Jan-2026 17:40:02 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[23-Jan-2026 09:03:01 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[23-Jan-2026 09:30:22 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[23-Jan-2026 12:22:38 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[23-Jan-2026 12:22:43 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[28-Jan-2026 08:57:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[28-Jan-2026 08:57:30 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[29-Jan-2026 12:33:07 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[04-Feb-2026 13:06:54 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[26-Feb-2026 13:59:12 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[03-Mar-2026 14:23:43 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[03-Mar-2026 14:26:18 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[04-Mar-2026 09:55:07 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[04-Mar-2026 09:58:02 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[05-Mar-2026 13:15:08 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[07-Mar-2026 07:37:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[13-Mar-2026 15:06:44 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[13-Mar-2026 15:07:23 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[20-Mar-2026 10:21:25 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[20-Mar-2026 10:35:53 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[20-Mar-2026 10:36:04 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[25-Mar-2026 08:48:33 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[25-Mar-2026 08:48:43 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[08-Apr-2026 14:26:25 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297
+[09-Apr-2026 10:46:10 America/Mexico_City] PHP Warning:  Undefined variable $base642 in /home2/mspetrol/systemsisma.org/apisisma/Trazabilidad/print/entrega_evi.php on line 297

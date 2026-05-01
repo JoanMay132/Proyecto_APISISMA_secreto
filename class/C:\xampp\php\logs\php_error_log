@@ -1,0 +1,91 @@
+[18-Dec-2024 04:44:37 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ldbmg8h6rf2mq8kpbqi8lhfm41, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 04:44:37 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 04:56:51 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_vodi4p9pbru83p7ru040qjh19l, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 04:56:51 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:04:55 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_f6i0u185622nqtcm0vrt8h43ep, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:04:55 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:10:36 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ts4dn0bj0814046uv6fup52ao3, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:10:36 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:18:52 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_5ij6vr8gdhan6tn6k2ok3ubs30, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:18:52 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:24:53 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ibtohaptafopvcn0nb4ljr03jl, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:24:53 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:33:57 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_bq89rr60rro8k2eceduv4ohatg, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:33:57 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:37:09 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_oji87dj1vg0budt7so0moj4q75, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:37:09 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 05:48:28 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_q2b645c9si32tp4d30sdm9sh70, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 2
+[18-Dec-2024 05:48:28 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 2
+[18-Dec-2024 05:55:20 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_a0d3cekjcdpphb0aohbpkn07ef, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 2
+[18-Dec-2024 05:55:20 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 2
+[18-Dec-2024 06:24:55 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function sesion_start() in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php:1
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:25:56 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_3a7l5m2k52c5bsffbhr26uflvs, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:25:56 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:27:24 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_s7vratsh60rtjqk91grngfj52d, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:27:24 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:30:16 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_olr2q3i2lp9flhg0dimi70sq8t, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:30:16 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:34:36 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_i8goim30geaibvu77ksdbdrous, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:34:36 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:42:42 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ne6au4m5mnkvh1mdug95h13p46, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:42:42 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[17-Dec-2024 23:42:42 America/Mexico_City] PHP Warning:  Undefined array key "username" in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 20
+[17-Dec-2024 23:42:42 America/Mexico_City] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 20
+[17-Dec-2024 23:42:42 America/Mexico_City] PHP Warning:  Undefined array key "password" in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 21
+[17-Dec-2024 23:42:42 America/Mexico_City] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 21
+[17-Dec-2024 23:43:39 America/Mexico_City] PHP Warning:  Undefined array key "username" in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 20
+[17-Dec-2024 23:43:39 America/Mexico_City] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 20
+[17-Dec-2024 23:43:39 America/Mexico_City] PHP Warning:  Undefined array key "password" in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 21
+[17-Dec-2024 23:43:39 America/Mexico_City] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 21
+[18-Dec-2024 06:49:01 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_5u5l82res166ec8h1u87seelua, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:49:01 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:49:56 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ja1k8g9ko3iqipe6sk7vrpk8ep, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:49:56 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:56:57 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_rt8vcomapi2ajtu077k2u1imql, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:56:57 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:58:35 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_i5eh8tqdkbb8tdietfpf5irphe, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:58:35 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:59:52 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_cg13llqs1joq3pj12iokas03pc, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 06:59:52 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:01:00 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_9f3fsj8j0kmc1bi9fqjlk6h9el, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:01:00 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:01:22 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_a4mpd47ik2cnu4etapm1mfl673, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:01:22 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:02:30 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_digogr53v3gpgu5cvbgb1oi92a, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:02:30 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:03:05 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_jdpq0rflr5n9g3njajvdp3s4oq, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:03:05 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:07:04 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_dr282or3ed9iqjlj0fpfpbunem, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:07:04 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:15:23 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_d6jrvvi1slo0elakhdjljkgkd2, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:15:23 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:19:48 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_62unv1eq2hd52b7s2b5daius2r, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:19:48 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:20:34 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_4v80lj7fhasfb1r6j5fa5thrnq, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 07:20:34 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:04:52 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_k60mun6log0ebuo337dba9bbb8, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:04:52 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:10:58 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ojqvqecfq7b3vkt5jd0k2fmdcr, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:10:58 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:16:49 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_82jktqgm0e21n0a7t0u7eq2tst, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:16:49 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:16:56 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_82jktqgm0e21n0a7t0u7eq2tst, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:16:56 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:17:03 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_82jktqgm0e21n0a7t0u7eq2tst, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:17:03 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:22:22 Europe/Berlin] PHP Warning:  session_start(): open(C:\xampp\tmp/sess_ak6qmj2af6g7jl7vvaimi26d8k, O_RDWR) failed: No such file or directory (2) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[18-Dec-2024 16:22:22 Europe/Berlin] PHP Warning:  session_start(): Failed to read session data: files (path: C:\xampp\tmp) in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 1
+[19-Dec-2024 04:44:15 Europe/Berlin] PHP Warning:  include_once(info.php): Failed to open stream: No such file or directory in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 6
+[19-Dec-2024 04:44:15 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'info.php' for inclusion (include_path='C:\xampp\php\PEAR') in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 6
+[18-Dec-2024 21:44:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Class "Info" not found in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php:19
+Stack trace:
+#0 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/Login.php on line 19
+[12-Feb-2026 20:52:05 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home2/mspetrol/systemsisma.org/apisisma/class/sesion.php:23
+Stack trace:
+#0 /home2/mspetrol/systemsisma.org/apisisma/class/Login.php(25): Sesion->Login('roque', 'Msproque')
+#1 {main}
+  thrown in /home2/mspetrol/systemsisma.org/apisisma/class/sesion.php on line 23
