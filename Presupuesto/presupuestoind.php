@@ -38,7 +38,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
             <!-- PRIMERA COLUMNA -->
             <input type="hidden" name="servicio" id="servicio">
             <div class="col-12 col-sm-8" >
-                <p class="h6 text-info text-center"><strong>ANALISIS DE COSTOS UNITARIOS</strong></p>
+                <p class="h6 text-danger text-center"><strong>ANALISIS DE COSTOS UNITARIOS INDUSTRIALES</strong></p>
                 <div class="row" >
                     <div class="col-1" style="padding:unset;">
                         <label  class="txt-11 " ><strong>CLIENTE:</strong> </label>
@@ -76,8 +76,8 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
 
                 <div class="row">
                     <div class="col-sm-12" style="padding:unset;">
-                        <table  class="table txt-12 table-sm table-success table-striped table-presupuesto"  >
-                            <thead class="text-center" ondblclick="OpenWindows('materiales?suc=<?php echo $cargaSuc; ?>&budget=true','MATERIALES');">
+                        <table  class="table txt-12 table-sm table-info table-striped table-presupuesto"  >
+                            <thead class="text-center" ondblclick="OpenWindows('materialesind?suc=<?php echo $cargaSuc; ?>&budget=true','MATERIALESIND');">
                                 <th width="3%" id="border-dark-b"></th>
                                 <th width="60%" id="border-dark-b">A) MATERIALES</th>
                                 <th width="10%" id="border-dark-b">CANTIDAD</th>
@@ -93,8 +93,8 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                             </tbody>
                         </table>
 
-                        <table  class="table txt-12 table-sm table-success table-striped table-presupuesto"  >
-                            <thead class="text-center" ondblclick="OpenWindows('mobra?suc=<?php echo $cargaSuc; ?>&budget=true','MANO DE OBRA');"  >
+                        <table  class="table txt-12 table-sm table-info table-striped table-presupuesto"  >
+                            <thead class="text-center" ondblclick="OpenWindows('mobraind?suc=<?php echo $cargaSuc; ?>&budget=true','MANO DE OBRA');"  >
                                 <th width="3%" id="border-dark-b"></th>
                                 <th width="60%" id="border-dark-b" >B) MANO DE OBRA</th>
                                 <th width="10%"  id="border-dark-b" >CANTIDAD</th>
@@ -133,7 +133,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                             </tbody>
                         </table>
 
-                        <table class="table txt-12 table-sm table-success table-striped table-presupuesto">
+                        <table class="table txt-12 table-sm table-info table-striped table-presupuesto">
                             <thead class="text-center">
                                 <th width="80%" id="border-dark-b">B1) HERRAMIENTA MENOR %(B)</th>
                                 <th width="10%" id="border-dark-b"><input type="text" class="form-control form-control-sm no-bg text-center border-dark input-form porcentaje" id="inputHtamenor" name="htamenor" min="0" value="3%" step="0.1" style="height: 20px;" onchange="ImporteHtaEq();"></th>
@@ -146,8 +146,8 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                             </thead>
                         </table>
 
-                        <table  class="table txt-12 table-sm table-success table-striped table-presupuesto"  >
-                            <thead class="text-center" ondblclick="OpenWindows('maquinaria?suc=<?php echo $cargaSuc; ?>&budget=true','MAQUINARIA');" >
+                        <table  class="table txt-12 table-sm table-info table-striped table-presupuesto"  >
+                            <thead class="text-center" ondblclick="OpenWindows('maquinariaind?suc=<?php echo $cargaSuc; ?>&budget=true','MAQUINARIA');" >
                                 <th width="3%" id="border-dark-b"></th>
                                 <th width="60%" id="border-dark-b">C) MAQUINARIA Y EQUIPO</th>
                                 <th width="10%" id="border-dark-b">CANTIDAD</th>
@@ -163,8 +163,8 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                             </tbody>
                         </table>
 
-                        <table   class="table txt-12 table-sm table-success table-striped table-presupuesto">
-                            <thead class="text-center" ondblclick="OpenWindows('adicionales?suc=<?php echo $cargaSuc; ?>&budget=true','MAQUINARIA');">
+                        <table   class="table txt-12 table-sm table-info table-striped table-presupuesto">
+                            <thead class="text-center" ondblclick="OpenWindows('adicionalesind?suc=<?php echo $cargaSuc; ?>&budget=true','MAQUINARIA');">
                                 <th width="3%" id="border-dark-b"></th>
                                 <th width="60%" id="border-dark-b">D) SERVICIOS ADICIONALES</th>
                                 <th width="10%" id="border-dark-b">CANTIDAD</th>
@@ -183,7 +183,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                         <!-- SECCIÓN DE TOTALES -->
                         <div class="row" style="padding:0px">
                             <div class="col-5">
-                                <table class="table txt-12 table-sm table-primary table-striped text-center table-presupuesto">
+                                <table class="table txt-12 table-sm table-success table-striped text-center table-presupuesto">
                                     <tr>
                                         <td width="77%" class="border-dark"><strong>Contenido Nacional</strong></td>
                                         <td class="border-dark"><input type="text" readonly id="cnacional" class="form-control form-control-sm text-center input-form" value="$0.00" style="margin:auto;padding:0px;height:auto;font-size:12px" name="cnacional"></td>
@@ -193,7 +193,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                                         <td class="border-dark" style="background:white"><p id="pcnc" >0.00</p></td>
                                     </tr>
                                 </table>
-                                <table class="table txt-12 table-sm table-primary table-striped text-center table-presupuesto">
+                                <table class="table txt-12 table-sm table-success table-striped text-center table-presupuesto">
                                     <tr>
                                         <td width="77%"  class="border-dark"><strong>CANTIDAD DE PIEZAS (MUL)</strong></td>
                                         <td width="23%" class="border-dark" ><input type="number" onchange="Operaciones();" pattern="[0-9]*" class="form-control form-control-sm text-center " id="iMul"  value="0"  style="margin:auto;padding:0px;height:auto" name="canmult"></td>
@@ -204,7 +204,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                                     </tr>
 
                                 </table>
-                                <table class="table txt-12 table-sm table-primary table-striped text-center table-presupuesto">
+                                <table class="table txt-12 table-sm table-success table-striped text-center table-presupuesto">
                                     <tr>
                                         <td width="77%"  class="border-dark"><strong>CANTIDAD DE PIEZAS (DIV)</strong></td>
                                         <td width="23%" class="border-dark" ><input type="number" onchange="Operaciones();" class="form-control form-control-sm text-center " id="iDiv"  value="0" style="margin:auto;padding:0px;height:auto" name="cantdiv"></td>
@@ -217,7 +217,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                                 </table>
                             </div>
                             <div class="col-7">
-                                <table class="table txt-12 table-sm table-primary table-striped text-right table-presupuesto">
+                                <table class="table txt-12 table-sm table-success table-striped text-right table-presupuesto">
                                     <thead >
                                         <th colspan="2" id="border-dark-b">COSTOS DIRECTOS (A+B+B1+B2+C+D):</th>
                                         <th id="border-dark-b" width="20%"><strong><p id="cDirectos">$0.00</p></strong></th>
@@ -247,7 +247,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                                     </thead>
                                 </table>
 
-                                <table   class="table txt-12 table-sm table-primary table-striped table-presupuesto">
+                                <table class="table txt-12 table-sm table-success table-striped table-presupuesto">
                                     <thead class="text-center" >
                                         <th width="80%" id="border-dark-b" ><h4>TOTAL PRECIO UNITARIO</h4></th>
                                         <th width="20%" id="border-dark-b" ><h4 id="totalAll">$0.00</h4></th>
@@ -258,7 +258,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                         </div>
                         <div class="row">
                             <div class="col-12">
-                                <div style="width:auto;height:auto;padding: 3px;" class="table-primary txt-12"><strong>DESCRIPCIÓN DETALLADA DEL SERVICIO</strong></div>
+                                <div style="width:auto;height:auto;padding: 3px;" class="table-success txt-12"><strong>DESCRIPCIÓN DETALLADA DEL SERVICIO</strong></div>
                                 <textarea class="form-control form-control-sm input-form txt-12" rows="3" name="descripcion" ></textarea>
                             </div>
                            
@@ -393,7 +393,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
 <?php
   include_once '../dependencias/php/footer.php';
 ?>
-<script type="text/javascript" src="../dependencias/js/Presupuesto/Analisis.js?v=1.0.9"></script>
+<script type="text/javascript" src="../dependencias/js/Presupuesto/Analisisind.js"></script>
 
 <script>
   $( function() {
@@ -402,6 +402,16 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
   $( function() {
     $('[data-toggle="tooltip"]').tooltip();
   } );
+
+  Swal.fire({
+            position: 'center',
+            icon: 'info',
+            title: 'Analisis De Costo (Presupuesto) 2da Versión.',
+            text: 'Los cambios que se realicen en los registros de las tablas de materiales, mano de obra, maquinaria y servicios adicionales no afectaran los costos de la 1ra Versión, son totalmente independientes.',
+            showConfirmButton: true,
+            width: 'auto',
+            //timer: 1500,
+        })
   function Presupuesto(URL, name = ""){ 
         window[name] ? window[name].focus() :  window.open(URL,name,"width=1100,height=450,scrollbars=yes,left=300,addressbar=0,menubar=0,toolbar=0" ); return false;
     }
@@ -423,6 +433,7 @@ $rol->listBranchInPermission($_SESSION['controles'],Operacion::modifica->value,C
                 <?php echo 'Sucursal("'.$_GET['suc'].'");'; ?>
        </script>
 <?php }
+
    ?>
 
 <!-- Adding alert to prevent accidental navigation away from the page -->

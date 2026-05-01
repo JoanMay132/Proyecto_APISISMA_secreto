@@ -166,7 +166,7 @@ async function Sucursal(valor, data = {}, em = "") {
     //Se actuliza la lista de empleado por sucursal
     await $.ajax({
         type: "POST",
-        data: { "sucursal": valor },
+        data: { "sucursal": valor, "soloActivos": "1" },
         url: "Cargas/loadEmpleados.php",
         dataType: "json",
         success: function (respuesta) {
@@ -263,6 +263,47 @@ async function dataOrden(id, ot = "") {
             await viewDepto(respuesta.solicito);
 
             await Servicios(orden, ot);
+        }
+    });
+}
+
+//Consulta la cotizacion y obtiene la O.T. relacionada
+async function dataCotizacion(id) {
+    if (id === '') {
+        return false;
+    }
+
+    const sucursal = document.getElementById("sucursal").value;
+    if (sucursal === '') {
+        Swal.fire({
+            position: 'center',
+            icon: 'info',
+            title: 'Seleccione sucursal',
+            showConfirmButton: true,
+            width: 'auto'
+        });
+        return false;
+    }
+
+    $.ajax({
+        type: "POST",
+        data: { "id": id, "sucursal": sucursal },
+        url: "Cargas/loadOrdenByCotizacion.php",
+        dataType: "json",
+        success: async function (respuesta) {
+            if (respuesta.error) {
+                Swal.fire({
+                    position: 'center',
+                    icon: 'info',
+                    title: respuesta.error,
+                    showConfirmButton: true,
+                    width: 'auto'
+                });
+                return false;
+            }
+
+            document.getElementById("listorden").value = respuesta.orden;
+            await dataOrden(respuesta.orden);
         }
     });
 }

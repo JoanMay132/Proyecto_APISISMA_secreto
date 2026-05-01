@@ -115,7 +115,7 @@ $obcli = new Cliente();
                         <option value=""></option>
                     </select>
                     <label for="cotizacion" class="txt-11 text-secondary col-3 col-sm-3">COTIZACION</label>
-                    <select  name="cotizacion" id="cotizacion"  class="form-control form-control-sm col-3 col-sm-3" >
+                    <select  name="cotizacion" id="cotizacion" onchange="return dataCotizacion(this.value);" class="form-control form-control-sm col-3 col-sm-3" >
                         <option value=""></option>
                     </select>
                 </div>
@@ -160,7 +160,7 @@ $obcli = new Cliente();
                           </tr>
                         </thead>
                         <tbody class="text-secondary body-table" id="serv-ot">
-                          <tr style="max-height: 80px;" ondblclick='addServentrega(<?php echo json_encode($data); ?>)'>
+                          <tr style="max-height: 80px;" ondblclick='addServentrega(<?php echo json_encode($data); ?>)' >
                             <td valign="top"><input name="pda[]" type="number" min="0.00" step="0.01" class="form-control text-center"  autocomplete="off" inputmode="numeric"></td>
                             <td valign="top"><input type="number" name="cant[]"  min="0.00" class="form-control  text-center"  autocomplete="off"></td>
                             <td valign="top">
@@ -224,7 +224,7 @@ $obcli = new Cliente();
 <?php
   include_once '../dependencias/php/footer.php';
 ?>
-<script type="text/javascript" src="../dependencias/js/Trazabilidad/Entrega.js"></script>
+<script type="text/javascript" src="../dependencias/js/Trazabilidad/Entrega.js?v=1.0.1"></script>
 <script>
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()
@@ -234,3 +234,16 @@ $obcli = new Cliente();
     }
 </script>
 
+<!-- Adding alert to prevent accidental navigation away from the page -->
+<script>
+document.addEventListener("click", () => {
+    window.userInteracted = true;
+});
+
+window.addEventListener("beforeunload", function (event) {
+    if (window.userInteracted) {
+        event.preventDefault();
+        event.returnValue = "";
+    }
+});
+</script>

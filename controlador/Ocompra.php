@@ -12,10 +12,70 @@ class Ocompra extends Conexion{
 
     }
 
-    public function AddFolio($folio,$sucursal,$fecha): bool{
-        $query = self::$conexion->prepare('INSERT INTO ocompra (folio,fksucursal,fechaorden) VALUES (?,?,?) ');
+    public function AddFolio($folio,$sucursal,$fechaorden,$fechaent): bool{
+        $query = self::$conexion->prepare('INSERT INTO ocompra (
+            folio,
+            fksucursal,
+            fechaorden,
+            fechaent,
+            fkrequisicion,
+            fkorden,
+            moneda,
+            condpago,
+            fkproveedor,
+            rfc,
+            direccion,
+            contacto,
+            telefono,
+            correo,
+            nproveedor,
+            direntrega,
+            fkecomprador,
+            telefono2,
+            email,
+            observaciones,
+            diascredito,
+            fkesolicita,
+            fkeautoriza,
+            estado,
+            importe,
+            descto,
+            subtotal,
+            iva,
+            total
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?) ');
 
-        if($query->execute(array($folio,$sucursal,$fecha)) > 0){
+        if($query->execute(array(
+            $folio,
+            $sucursal,
+            $fechaorden,
+            $fechaent,
+            0,
+            0,
+            'M.N.',
+            'CONTADO',
+            0,
+            '',
+            '',
+            '',
+            '',
+            '',
+            '',
+            '',
+            0,
+            '',
+            '',
+            '',
+            0,
+            0,
+            0,
+            'VIGENTE',
+            0,
+            0,
+            0,
+            16,
+            0
+        )) > 0){
             $this->pkocompra = self::$conexion->lastInsertId();
            return true;
         }
