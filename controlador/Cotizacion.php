@@ -317,7 +317,7 @@
                 empleado.apellidos FROM cotizacion
             LEFT JOIN cliente ON cotizacion.fkcliente = cliente.pkcliente
             LEFT JOIN deptocli ON cotizacion.fkdeptocli = deptocli.pkdeptocli 
-            LEFT JOIN empleado ON cotizacion.fkecotizo = empleado.pkempleado WHERE cotizacion.fksucursal = ? AND YEAR(cotizacion.fecha) = ? ORDER BY CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(folio, "/", 1), "C", -1) AS UNSIGNED) DESC,folio DESC');
+            LEFT JOIN empleado ON cotizacion.fkecotizo = empleado.pkempleado WHERE cotizacion.fksucursal = ? AND YEAR(cotizacion.fecha) = ? ORDER BY cotizacion.pkcotizacion DESC');
             $query->execute(array($data,$anio));
             $query = $query->fetchAll(PDO::FETCH_ASSOC);
             return $query;
