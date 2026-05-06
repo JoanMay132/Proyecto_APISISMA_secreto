@@ -500,11 +500,11 @@ $oSubcot = new Subcotizacion();
                             <div class="row">
                                 <?php if($modifica){ ?>
                                 <div class="col-6" style="padding:0px">
-                                    <button  class="btn btn-sm btn-outline-success" id="guardar" style="white-space:normal;word-wrap:break-word" ><span class="fa fa-print"></span> IMP. COTIZACION SIN IVA</button>
+                                    <button type="button" class="btn btn-sm btn-outline-success" id="guardar" style="white-space:normal;word-wrap:break-word" ><span class="fa fa-print"></span> IMP. COTIZACION SIN IVA</button>
                                 </div>
                                 
                                 <div class="col-6" style="padding:0px">
-                                    <button class="btn btn-sm btn-outline-warning" id="printIva" style="word-wrap:break-word"><span class="fa fa-print"></span> IMP. COTIZACION</button>
+                                    <button type="button" class="btn btn-sm btn-outline-warning" id="printIva" style="word-wrap:break-word"><span class="fa fa-print"></span> IMP. COTIZACION</button>
                                 </div>
                                 <?php }else{?>
                                     <div class="col-6" style="padding:0px">
@@ -604,7 +604,7 @@ $oSubcot = new Subcotizacion();
  
 ?>
 
-<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.3"></script>
+<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.5"></script>
 <script type="text/javascript" src="../dependencias/js/Trazabilidad/Presupuesto.js?v=1.0.0"></script>
 
 <script>

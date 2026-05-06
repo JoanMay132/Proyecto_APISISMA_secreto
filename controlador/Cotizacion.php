@@ -325,9 +325,9 @@
 
         //Servicio de cotizacion
         public function AddServ($data): bool{
-            $query = self::$conexion->prepare('INSERT INTO servcotizacion(pda,cant,fkunidad,descripcion,tipotrabajo,preciounit,subtotal,clave,item,fkcotizacion) VALUES (?,?,?,?,?,?,?,?,?,?) ');
+            $query = self::$conexion->prepare('INSERT INTO servcotizacion(pda,cant,fkunidad,descripcion,tipotrabajo,preciounit,subtotal,clave,item,fkcotizacion,contenido,presupuesto) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) ');
 
-            if($query->execute(array($data["pda"],$data["cantidad"],$data["unidad"],$data["descripcion"],$data["ttrabajo"],$data["costo"],$data["subtotal"],$data["clave"],$data["item"],$data["fkcotizacion"])) > 0){
+            if($query->execute(array($data["pda"],$data["cantidad"],$data["unidad"],$data["descripcion"],$data["ttrabajo"],$data["costo"],$data["subtotal"],$data["clave"],$data["item"],$data["fkcotizacion"],0,0)) > 0){
                return true;
             }
 
