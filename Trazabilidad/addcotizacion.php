@@ -473,7 +473,7 @@ $viewCosto = '';
   include_once '../dependencias/php/footer.php';
 ?>
 
-<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.5"></script>
+<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.6"></script>
 <script type="text/javascript" src="../dependencias/js/Trazabilidad/Presupuesto.js"></script>
 
 <script>
@@ -510,6 +510,9 @@ document.addEventListener("click", () => {
 });
 
 window.addEventListener("beforeunload", function (event) {
+    if (window.allowNavigation) {
+        return;
+    }
     if (window.userInteracted) {
         event.preventDefault();
         event.returnValue = "";

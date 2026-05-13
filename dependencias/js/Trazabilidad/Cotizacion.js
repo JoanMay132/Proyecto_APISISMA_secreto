@@ -222,8 +222,8 @@ function viewDepto(cliente){
    }
 }
 
-//Consulta la revision preeliminar
-function dataRevision(id)
+//Consulta la revision preeliminar (pkcotEncoded: id cotización en edición, base64, para servicioLev)
+function dataRevision(id, pkcotEncoded = "")
 {
     $.ajax({
         type: "POST",
@@ -256,7 +256,7 @@ function dataRevision(id)
            // },300);
 
             //Se muestran los totales
-            await Servicios(revision);
+            await Servicios(revision, pkcotEncoded);
 
             await viewCambio(respuesta.cliente);
             await Cambio();
@@ -269,17 +269,28 @@ function dataRevision(id)
     });
 }
 
-//Carga los servicios en la tabla
-async function Servicios(rev){
+//Carga los servicios en la tabla (pkcotEncoded opcional: al editar cotización, enlaza pkservcotizacion)
+async function Servicios(rev, pkcotEncoded = ""){
+    const postData = {"id": rev};
+    if (pkcotEncoded) {
+        postData.cot = pkcotEncoded;
+    }
     await $.ajax({
         type: "POST",
-        data: {"id": rev},
+        data: postData,
         url: "Cargas/servicioLev.php",
         success:function(respuesta){
-            let tabla = document.getElementById("serv-cotizacion");
+            let tbody = document.getElementById("serv-cotizacion");
             let fila0 = document.getElementById("serv-0");
+            if (!tbody || !fila0) {
+                return false;
+            }
+            // Quitar filas insertadas antes por esta misma carga (evita duplicados y DOM inválido)
+            tbody.querySelectorAll("tr.serv-lev-import").forEach(function (tr) {
+                tr.remove();
+            });
 
-            //Carga los servicios amtes de serv-0
+            //Carga los servicios antes de la fila plantilla serv-0
             fila0.insertAdjacentHTML('beforebegin', respuesta);
 
             //tabla.innerHTML = respuesta;
@@ -466,7 +477,11 @@ function addCotizacion(rev = "",print=false,iva = false) {
                 position:'center',
                 timer: 2500,
             }); return false;
-        }    
+        }
+           // Volver a habilitar impresión si el usuario cancela la salida (beforeunload) o permanece en la página
+           if (btnSave) btnSave.disabled = false;
+           if (btnPrint) btnPrint.disabled = false;
+           window.allowNavigation = true;
            if(rev != "")
            {
                document.location.href = "ecotizacion?edit="+rev;  

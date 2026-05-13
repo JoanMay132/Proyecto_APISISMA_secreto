@@ -342,7 +342,7 @@ $oSubcot = new Subcotizacion();
 
                                 foreach ($cot->GetDataAllServ($idCotizacion) as $res) { ?> 
 
-                        <tr style="max-height: 80px;" ondblclick='addServcot(<?php echo json_encode($data); ?>,"<?php echo $viewCosto; ?>",<?php echo json_encode($tipo); ?>)' id="serv-0">
+                        <tr style="max-height: 80px;" ondblclick='addServcot(<?php echo json_encode($data); ?>,"<?php echo $viewCosto; ?>",<?php echo json_encode($tipo); ?>)' id="serv-php-<?php echo $contador; ?>">
                             <input type="hidden" name="fkcatserv[]" id="fkcatserv-<?php echo $contador; ?>">
                             <input type="hidden" name="pkservcotizacion[]" value="<?php echo base64_encode($res['pkservcot']); ?>">
                             <input type="hidden" name="contenido[]" value="<?php echo $res['contenido']; ?>">
@@ -386,11 +386,8 @@ $oSubcot = new Subcotizacion();
                             <td valign="top"><input id="item-<?php echo $contador; ?>"  name="item[]" type="text"  class="form-control form-control-sm" autocomplete="off" value=" <?php echo $res["item"]; ?>"></td>
                         </tr>
                               <?php $contador++;  } //Fin de Foreach
-
-                              if($contador == 0){
                             ?>
-                        
-                        <!-- INICO DE LOS NUEVOS REGISTROS -->
+                        <!-- Fila plantilla (nuevos registros) y ancla única para insertAdjacentHTML en Servicios() -->
                           <tr style="max-height: 80px;" ondblclick='addServcot(<?php echo json_encode($data); ?>,"<?php echo $viewCosto; ?>",<?php echo json_encode($tipo); ?>)' id="serv-0">
                             <input type="hidden" name="fkcatserv[]" id="fkcatservNew-0">
                             <td valign="top"><input name="pda[]" type="number" min="0.00" step="0.01" class="form-control form-control-sm"  autocomplete="off"></td>
@@ -425,7 +422,7 @@ $oSubcot = new Subcotizacion();
                             <td valign="top"><textarea id="" name="clave[]" class="form-control" autocomplete="off" style="resize:none;height:30px;" oninput="autoResize(this);" spellcheck="false"></textarea></td>
 
                             <td valign="top"><input id="itemNew-0"  name="item[]" type="text"  class="form-control form-control-sm" autocomplete="off"></td>
-                        </tr> <?php } ?>
+                        </tr>
                         <!-- fin de los nuevos registros -->
                             
                         </tbody>
@@ -604,7 +601,7 @@ $oSubcot = new Subcotizacion();
  
 ?>
 
-<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.5"></script>
+<script type="text/javascript" src="../dependencias/js/Trazabilidad/Cotizacion.js?v=1.0.7"></script>
 <script type="text/javascript" src="../dependencias/js/Trazabilidad/Presupuesto.js?v=1.0.0"></script>
 
 <script>
@@ -658,15 +655,15 @@ $oSubcot = new Subcotizacion();
                     //timer: 1500,
                   });
         */
-document.getElementById('listRevision').addEventListener("click",(event)=>{
-  event.stopPropagation();
-  opcionSeleccionada = document.getElementById('listRevision').value;
-  document.getElementById('listRevision').addEventListener("click",(event)=>{
-    //let sucursal = opcionSeleccionada;
-    let id  = opcionSeleccionada;
-    dataRevision(id,'<?php echo base64_encode($resCot['pkcotizacion']);?>');
-  });
- 
-});
+const listRevisionEl = document.getElementById('listRevision');
+if (listRevisionEl) {
+    listRevisionEl.addEventListener('change', function () {
+        const id = this.value;
+        if (!id) {
+            return;
+        }
+        dataRevision(id, '<?php echo base64_encode($resCot['pkcotizacion']); ?>');
+    });
+}
 </script>
 

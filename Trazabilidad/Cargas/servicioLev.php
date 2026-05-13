@@ -32,7 +32,7 @@
  
  ?>
 
-<tr style="max-height: 80px;" ondblclick='addServcot(<?php echo json_encode($data); ?>,undefined,<?php echo json_encode($tipo); ?>)' >
+<tr class="serv-lev-import" style="max-height: 80px;" ondblclick='addServcot(<?php echo json_encode($data); ?>,undefined,<?php echo json_encode($tipo); ?>)' >
 <?php if(isset($_POST['cot']) && !empty($_POST['cot'])){ ?> <input type="hidden" name="pkservcotizacion[]" value="<?php echo base64_encode(@$list[$row]); ?>"> <?php }?>
     <input type="hidden" name="fkcatserv[]" id="fkcatservLoad-<?php echo $row;?>">
     <td valign="top" style="border-left:2px solid red;"><input name="pda[]" type="number" min="0.00" step="0.01" class="form-control form-control-sm" value="<?php echo $value["pda"]; ?>" autocomplete="off"></td>
