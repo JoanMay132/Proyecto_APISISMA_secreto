@@ -170,32 +170,52 @@ $datos = array(
 
     if($oCot->Update($datos)){ //Actualiza los datos de la cotizacion
 
+        // ecotizacion.php envía pda[], cant[], … ; otras pantallas pueden usar pdaReg[], cantReg[], …
+        $useRegNames = isset($_POST['pdaReg']) && is_array($_POST['pdaReg']);
+
         //Actualiza los datos registrados
         $dataServReg = array(); //Se crea el array
         if(isset($_POST["pkservcotizacion"])){ 
             for($i = 0 ; $i < count($_POST["pkservcotizacion"]); $i++){
-                $dataServReg = array(
-                    "pda" => Helper::float($_POST['pdaReg'][$i]),
-                    "cantidad" => Helper::float($_POST['cantReg'][$i]),
-                    "unidad" => Helper::val_input($_POST['unidadReg'][$i]),
-                    "descripcion" =>trim($_POST['descripcionReg'][$i]),
-                    "ttrabajo" => Helper::val_input($_POST['ttrabajoReg'][$i]),
-                    "costo" => Helper::float($_POST['costoReg'][$i]),
-                    "subtotal" => Helper::float($_POST['subtotalReg'][$i]),
-                    "clave" => Helper::val_input($_POST['claveReg'][$i]),
-                    "item" => Helper::val_input($_POST["itemReg"][$i]),
-                    "contenido" => Helper::val_input($_POST["contenidoReg"][$i]),
-                    "pkservcotizacion" => (int) base64_decode($_POST["pkservcotizacion"][$i]),
-                );
+                if ($useRegNames) {
+                    $dataServReg = array(
+                        "pda" => Helper::float($_POST['pdaReg'][$i] ?? 0),
+                        "cantidad" => Helper::float($_POST['cantReg'][$i] ?? 0),
+                        "unidad" => Helper::val_input($_POST['unidadReg'][$i] ?? ''),
+                        "descripcion" => trim($_POST['descripcionReg'][$i] ?? ''),
+                        "ttrabajo" => Helper::val_input($_POST['ttrabajoReg'][$i] ?? ''),
+                        "costo" => Helper::float($_POST['costoReg'][$i] ?? 0),
+                        "subtotal" => Helper::float($_POST['subtotalReg'][$i] ?? 0),
+                        "clave" => Helper::val_input($_POST['claveReg'][$i] ?? ''),
+                        "item" => Helper::val_input($_POST["itemReg"][$i] ?? ''),
+                        "contenido" => Helper::val_input($_POST["contenidoReg"][$i] ?? ''),
+                        "pkservcotizacion" => (int) base64_decode($_POST["pkservcotizacion"][$i]),
+                    );
+                } else {
+                    $dataServReg = array(
+                        "pda" => Helper::float($_POST['pda'][$i] ?? 0),
+                        "cantidad" => Helper::float($_POST['cant'][$i] ?? 0),
+                        "unidad" => Helper::val_input($_POST['unidad'][$i] ?? ''),
+                        "descripcion" => trim($_POST['descripcion'][$i] ?? ''),
+                        "ttrabajo" => Helper::val_input($_POST['ttrabajo'][$i] ?? ''),
+                        "costo" => Helper::float($_POST['costo'][$i] ?? 0),
+                        "subtotal" => Helper::float($_POST['subtotal'][$i] ?? 0),
+                        "clave" => Helper::val_input($_POST['clave'][$i] ?? ''),
+                        "item" => Helper::val_input($_POST["item"][$i] ?? ''),
+                        "contenido" => Helper::val_input($_POST["contenido"][$i] ?? ''),
+                        "pkservcotizacion" => (int) base64_decode($_POST["pkservcotizacion"][$i]),
+                    );
+                }
             
                 $oCot->updateServ($dataServReg);
             }
         }
 
-        //guarda los nuevos servicios que se agregen
+        //guarda los nuevos servicios (solo filas sin pkservcotizacion: índices >= cantidad de PKs enviados)
+        $nServiciosExistentes = isset($_POST['pkservcotizacion']) ? count($_POST['pkservcotizacion']) : 0;
         $dataServ = array();
         if(isset($_POST['pda'])){ 
-            for($c = 0; $c < count($_POST["pda"]); $c++){
+            for($c = $nServiciosExistentes; $c < count($_POST["pda"]); $c++){
                 if($_POST["pda"][$c] != '' || $_POST["cant"][$c] != '' ||  $_POST["unidad"][$c] != '' || $_POST["descripcion"][$c] != '' || $_POST["ttrabajo"][$c] != '' ||  $_POST["costo"][$c] != '' || $_POST["clave"][$c] != '' || $_POST["item"][$c] != '')
                 {
                     $dataServ = array(
