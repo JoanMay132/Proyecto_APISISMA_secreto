@@ -181,7 +181,7 @@
             cotizacion.folio AS folioCot FROM orden
         LEFT JOIN cotizacion ON orden.fkcotizacion = cotizacion.pkcotizacion
         LEFT JOIN cliente ON orden.fkcliente = cliente.pkcliente 
-        LEFT JOIN empleado ON orden.fkeproduccion = empleado.pkempleado WHERE orden.fksucursal = ? AND YEAR(orden.fecha) = ? ORDER BY CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(orden.folio, "/", 1), "C", -1) AS UNSIGNED) DESC,folio DESC');
+        LEFT JOIN empleado ON orden.fkeproduccion = empleado.pkempleado WHERE orden.fksucursal = ? AND YEAR(orden.fecha) = ? ORDER BY orden.fecha DESC, orden.pkorden DESC');
             $query->execute(array($data,$anio));
             $query = $query->fetchAll(PDO::FETCH_ASSOC);
             return $query;
