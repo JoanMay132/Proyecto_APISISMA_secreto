@@ -159,17 +159,44 @@ class Ocompra extends Conexion{
         return $query;
     }
 
-    public function GetDataJoin($data,$anio){
-           
-        $query = self::$conexion->prepare('SELECT 
+    public function GetDataJoin($data,$de,$a){
+
+        $query = self::$conexion->prepare('SELECT
         ocompra.pkocompra,
         ocompra.folio,
         ocompra.fechaorden,
         ocompra.estado,
         proveedor.pkproveedor,
         proveedor.nombre AS name_proveedor FROM ocompra
-    LEFT JOIN proveedor ON ocompra.fkproveedor = proveedor.pkproveedor WHERE ocompra.fksucursal = ? AND YEAR(ocompra.fechaorden) = ? ORDER BY CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(folio, "/", 1), "A", -1) AS UNSIGNED) DESC,folio DESC');
-        $query->execute(array($data,$anio));
+    LEFT JOIN proveedor ON ocompra.fkproveedor = proveedor.pkproveedor WHERE ocompra.fksucursal = ? AND ocompra.fechaorden BETWEEN ? AND ? ORDER BY CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(folio, "/", 1), "A", -1) AS UNSIGNED) DESC,folio DESC');
+        $query->execute(array($data,$de,$a));
+        $query = $query->fetchAll(PDO::FETCH_ASSOC);
+        return $query;
+    }
+
+    //Join de orden de compra con su documentacion relacionada (requisicion, OT, cotizacion, revision origen)
+    public function GetDataJoinFull($data,$de,$a){
+
+        $query = self::$conexion->prepare('SELECT
+            ocompra.pkocompra,
+            ocompra.folio,
+            ocompra.fechaorden,
+            ocompra.estado,
+            ocompra.total,
+            proveedor.nombre AS name_proveedor,
+            requisicion.folio AS reqfolio,
+            orden.folio AS otfolio,
+            cotizacion.folio AS cotfolio,
+            revpreeliminar.folio AS revfolio
+        FROM ocompra
+        LEFT JOIN proveedor ON ocompra.fkproveedor = proveedor.pkproveedor
+        LEFT JOIN requisicion ON ocompra.fkrequisicion = requisicion.pkrequisicion
+        LEFT JOIN orden ON ocompra.fkorden = orden.pkorden
+        LEFT JOIN cotizacion ON orden.fkcotizacion = cotizacion.pkcotizacion
+        LEFT JOIN revpreeliminar ON cotizacion.fkrevpreeliminar = revpreeliminar.pkrevpreeliminar
+        WHERE ocompra.fksucursal = ? AND ocompra.fechaorden BETWEEN ? AND ?
+        ORDER BY CAST(SUBSTRING_INDEX(SUBSTRING_INDEX(ocompra.folio, "/", 1), "A", -1) AS UNSIGNED) DESC, ocompra.folio DESC');
+        $query->execute(array($data,$de,$a));
         $query = $query->fetchAll(PDO::FETCH_ASSOC);
         return $query;
     }
