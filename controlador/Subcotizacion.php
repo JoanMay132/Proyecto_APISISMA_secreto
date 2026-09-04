@@ -236,26 +236,59 @@
         }
 
         //Join cotizacion para la lista de cotizaciones
-        public function GetDataJoin($data,$anio){
-           
-            $query = self::$conexion->prepare('SELECT 
+        public function GetDataJoin($data,$de,$a){
+
+            $query = self::$conexion->prepare('SELECT
                 subcotizacion.pksubcotizacion,
                 subcotizacion.folio,
                 subcotizacion.fecha,
                 subcotizacion.fkcliente,
                 subcotizacion.fkecotizo,
                 subcotizacion.ocompra,
-                subcotizacion.factura, 
+                subcotizacion.factura,
                 cliente.pkcliente,
                 cliente.nombre AS ncliente,
                 deptocli.nombre AS ndepto,
                 empleado.pkempleado,
-                empleado.nombre AS nempleado, 
+                empleado.nombre AS nempleado,
                 empleado.apellidos FROM subcotizacion
             LEFT JOIN cliente ON subcotizacion.fkcliente = cliente.pkcliente
-            LEFT JOIN deptocli ON subcotizacion.fkdeptocli = deptocli.pkdeptocli 
-            LEFT JOIN empleado ON subcotizacion.fkecotizo = empleado.pkempleado WHERE subcotizacion.fksucursal = ? AND YEAR(subcotizacion.fecha) = ? ORDER BY fkcotizacion DESC,folio DESC');
-            $query->execute(array($data,$anio));
+            LEFT JOIN deptocli ON subcotizacion.fkdeptocli = deptocli.pkdeptocli
+            LEFT JOIN empleado ON subcotizacion.fkecotizo = empleado.pkempleado WHERE subcotizacion.fksucursal = ? AND subcotizacion.fecha BETWEEN ? AND ? ORDER BY fkcotizacion DESC,folio DESC');
+            $query->execute(array($data,$de,$a));
+            $query = $query->fetchAll(PDO::FETCH_ASSOC);
+            return $query;
+        }
+
+        //Join de subcotizacion con su documentacion relacionada (cotizacion padre, revision origen, OT, orden de compra, entrega)
+        public function GetDataJoinFull($data,$de,$a){
+
+            $query = self::$conexion->prepare('SELECT
+                subcotizacion.pksubcotizacion,
+                subcotizacion.folio,
+                subcotizacion.fecha,
+                subcotizacion.estado,
+                subcotizacion.factura,
+                subcotizacion.total,
+                cliente.nombre AS ncliente,
+                deptocli.nombre AS ndepto,
+                cotizacion.folio AS cotfolio,
+                revpreeliminar.folio AS revfolio,
+                GROUP_CONCAT(DISTINCT orden.folio SEPARATOR ", ") AS otfolio,
+                GROUP_CONCAT(DISTINCT ordcompra.folio SEPARATOR ", ") AS ordcompfolio,
+                COUNT(DISTINCT entrega.pkentrega) AS totalentregas
+            FROM subcotizacion
+            LEFT JOIN cliente ON subcotizacion.fkcliente = cliente.pkcliente
+            LEFT JOIN deptocli ON subcotizacion.fkdeptocli = deptocli.pkdeptocli
+            LEFT JOIN cotizacion ON subcotizacion.fkcotizacion = cotizacion.pkcotizacion
+            LEFT JOIN revpreeliminar ON cotizacion.fkrevpreeliminar = revpreeliminar.pkrevpreeliminar
+            LEFT JOIN orden ON orden.fkcotizacion = cotizacion.pkcotizacion
+            LEFT JOIN ocompra AS ordcompra ON ordcompra.fkorden = orden.pkorden
+            LEFT JOIN entrega ON entrega.fkorden = orden.pkorden
+            WHERE subcotizacion.fksucursal = ? AND subcotizacion.fecha BETWEEN ? AND ?
+            GROUP BY subcotizacion.pksubcotizacion
+            ORDER BY subcotizacion.fkcotizacion DESC, subcotizacion.folio DESC');
+            $query->execute(array($data,$de,$a));
             $query = $query->fetchAll(PDO::FETCH_ASSOC);
             return $query;
         }
