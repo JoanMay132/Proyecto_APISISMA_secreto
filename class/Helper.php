@@ -61,5 +61,33 @@ class Helper{
         return $formattedPercentage;
     }
 
+    public static function lineasFirmaChecklist(string $nombre, string $email, string $motivo = 'Acepto las partes especificadas de este documento', string $organizacion = 'HENRRY HERNANDEZ PEREZ'): array {
+        $nombre = trim(strtoupper($nombre));
+        if ($nombre === '') {
+            return [];
+        }
+
+        $organizacion = trim(strtoupper($organizacion));
+        $lineas = [
+            'Firmado digitalmente por ' . $nombre,
+            'DN: cn=' . $nombre . ' gn=' . $nombre . ' c=MX Mexico l=MX Mexico',
+            'o=' . $organizacion . ' ou=' . $organizacion,
+        ];
+        if (trim($email) !== '') {
+            $lineas[] = 'e=' . trim($email);
+        }
+        $lineas[] = 'Motivo: ' . $motivo;
+
+        return $lineas;
+    }
+
+    public static function htmlFirmaDigital(array $lineas): string {
+        $html = '';
+        foreach ($lineas as $linea) {
+            $html .= '<p>' . htmlspecialchars($linea, ENT_QUOTES, 'UTF-8') . '</p>';
+        }
+
+        return $html;
+    }
 
 }
