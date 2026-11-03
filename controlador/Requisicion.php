@@ -13,9 +13,13 @@ class Requisicion extends Conexion{
     }
 
     public function AddFolio($folio,$sucursal,$fecha): bool{
-        $query = self::$conexion->prepare('INSERT INTO requisicion (folio,fksucursal,fecha) VALUES (?,?,?) ');
+        //Se envían valores por defecto para las columnas obligatorias (MySQL en modo estricto)
+        $query = self::$conexion->prepare('INSERT INTO requisicion (
+            fkorden, folio, proyecto, fecha, estado, clasificacion, observaciones,
+            fkesolicita, fkerecibe, fkeautoriza, lugarent, fksucursal
+        ) VALUES (?,?,?,?,?,?,?,?,?,?,?,?) ');
 
-        if($query->execute(array($folio,$sucursal,$fecha)) > 0){
+        if($query->execute(array(0,$folio,'',$fecha,'En proceso','','',0,0,0,'',$sucursal)) > 0){
             $this->pkrequisicion = self::$conexion->lastInsertId();
            return true;
         }
