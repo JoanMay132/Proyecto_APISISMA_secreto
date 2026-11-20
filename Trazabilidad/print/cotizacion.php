@@ -331,11 +331,11 @@ if(!empty($resultado)){
                     <td valign="top" style="width: 7%;text-align:center;word-wrap: break-word"><?php echo $serv['item']; ?></td>
                     <?php if($dolar){
                          ?>
-                        <td valign="top" style="width: 9%;text-align:right"><?php echo "$".number_format(($serv['preciounit']/$resp['tipocambio']),2,".",",") ; ?></td>
-                        <td valign="top" style="width: 10%;text-align:right"><?php echo "$".number_format(($serv['subtotal']/$resp['tipocambio']),2,".",","); ?></td>
+                        <td valign="top" style="width: 9%;text-align:right"><?php echo "$".Helper::precio($serv['preciounit']/$resp['tipocambio']) ; ?></td>
+                        <td valign="top" style="width: 10%;text-align:right"><?php echo "$".Helper::precio($serv['subtotal']/$resp['tipocambio']); ?></td>
                     <?php }else{ ?>
-                    <td valign="top" style="width: 9%;text-align:right"><?php if($serv['preciounit'] != 0.00){ echo "$".number_format($serv['preciounit'],2,".",",") ; }?></td>
-                    <td valign="top" style="width: 10%;text-align:right"><?php if($serv['subtotal'] != 0.00){ echo "$".number_format($serv['subtotal'],2,".",","); } ?></td>
+                    <td valign="top" style="width: 9%;text-align:right"><?php if($serv['preciounit'] != 0.00){ echo "$".Helper::precio($serv['preciounit']) ; }?></td>
+                    <td valign="top" style="width: 10%;text-align:right"><?php if($serv['subtotal'] != 0.00){ echo "$".Helper::precio($serv['subtotal']); } ?></td>
                     <?php } ?>
                 </tr>
                 <?php $anterior = $redondeo; }  ?>
@@ -346,7 +346,9 @@ if(!empty($resultado)){
             <?php if($resp['descto'] == "0.00"){  
                 if($iva){ 
                     $importeIva = ($importe * ($resp['iva']/100));
-                    $importe2 = ($importeIva + $importe);
+                    $retInfo = Helper::retencion($resp['retencion'] ?? '');
+                    $importeRet = $retInfo ? $importe * ($retInfo[1] / 100) : 0;
+                    $importe2 = ($importeIva + $importe - $importeRet);
                     if($dolar){
                     ?>
                     
@@ -360,6 +362,12 @@ if(!empty($resultado)){
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">IVA:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importeIva/$resp['tipocambio'], 2, '.', ','); ?></td>
                         </tr>
+                     <?php if ($retInfo) { ?>
+                     <tr>
+                            <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px"><?php echo $retInfo[0].' ('.rtrim(rtrim(number_format($retInfo[1],4,'.',''),'0'),'.').'%)'; ?>:</td>
+                            <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">-$<?php echo number_format($importeRet/$resp['tipocambio'], 2, '.', ','); ?></td>
+                     </tr>
+                     <?php } ?>
                         <tr style="background:#D9F2D0">
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">TOTAL:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importe2/$resp['tipocambio'], 2, '.', ','); ?></td>
@@ -376,6 +384,12 @@ if(!empty($resultado)){
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">IVA:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importeIva, 2, '.', ','); ?></td>
                         </tr>
+                     <?php if ($retInfo) { ?>
+                     <tr>
+                            <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px"><?php echo $retInfo[0].' ('.rtrim(rtrim(number_format($retInfo[1],4,'.',''),'0'),'.').'%)'; ?>:</td>
+                            <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">-$<?php echo number_format($importeRet, 2, '.', ','); ?></td>
+                     </tr>
+                     <?php } ?>
                         <tr style="background:#D9F2D0">
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">TOTAL:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importe2, 2, '.', ','); ?></td>
@@ -416,7 +430,9 @@ if(!empty($resultado)){
                 <th valign="top" style="width:65%;text-align:left">(<?php echo strtoupper(Conversion::convertirNumeroALetras($importe,'PESOS')); ?>)</th>
                    <?php } }else {
                          $importeIva = ($importe * ($resp['iva']/100));
-                         $importe2 = ($importeIva + $importe);
+                         $retInfo = Helper::retencion($resp['retencion'] ?? '');
+                         $importeRet = $retInfo ? $importe * ($retInfo[1] / 100) : 0;
+                         $importe2 = ($importeIva + $importe - $importeRet);
 
                          if($dolar){ ?>
                         <th valign="top" style="width:65%;text-align:left">(<?php echo strtoupper(Conversion::convertirNumeroALetras($importe2/$resp['tipocambio'],'DOLARES')); ?>)</th>
@@ -447,6 +463,12 @@ if(!empty($resultado)){
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">IVA:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importeIva/$resp['tipocambio'], 2, '.', ','); ?></td>
                         </tr>
+                        <?php if ($retInfo) { ?>
+                        <tr>
+                            <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px"><?php echo $retInfo[0].' ('.rtrim(rtrim(number_format($retInfo[1],4,'.',''),'0'),'.').'%)'; ?>:</td>
+                            <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">-$<?php echo number_format($importeRet/$resp['tipocambio'], 2, '.', ','); ?></td>
+                        </tr>
+                        <?php } ?>
                         <tr style="background:#D9F2D0">
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">TOTAL:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importe2/$resp['tipocambio'], 2, '.', ','); ?></td>
@@ -480,6 +502,12 @@ if(!empty($resultado)){
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">IVA:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importeIva, 2, '.', ','); ?></td>
                         </tr>
+                        <?php if ($retInfo) { ?>
+                        <tr>
+                            <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px"><?php echo $retInfo[0].' ('.rtrim(rtrim(number_format($retInfo[1],4,'.',''),'0'),'.').'%)'; ?>:</td>
+                            <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">-$<?php echo number_format($importeRet, 2, '.', ','); ?></td>
+                        </tr>
+                        <?php } ?>
                         <tr style="background:#D9F2D0">
                             <td style="width:50%;text-align:left;border: 1px solid grey;color:green;font-size:14px">TOTAL:</td>
                             <td style="width:50%;text-align:right;border: 1px solid grey;font-size:14px">$<?php echo number_format($importe2, 2, '.', ','); ?></td>
